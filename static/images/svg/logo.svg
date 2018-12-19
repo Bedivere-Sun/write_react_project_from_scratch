@@ -1,0 +1,13 @@
+<svg width="120" height="120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <filter id="star_blur">
+   <feGaussianBlur stdDeviation="2" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <path filter="url(#star_blur)" id="star" d="m8,48.46183l38.96082,0l12.03918,-37.01261l12.0392,37.01261l38.9608,0l-31.51989,22.87479l12.0398,37.0126l-31.51991,-22.8754l-31.51991,22.8754l12.03982,-37.0126l-31.51991,-22.87479z" opacity="0.5" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <text transform="matrix(0.792715, 0, 0, 0.792715, 18.8183, 15.3643)" font-style="italic" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Serif" font-size="24" id="hello_react" y="96.4589" x="51.22107" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#0000ff">Hello React</text>
+ </g>
+</svg>

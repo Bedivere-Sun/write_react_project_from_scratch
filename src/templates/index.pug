@@ -1,0 +1,23 @@
+| <!--
+| 这是一个简单的pug模板，因为并不是使用pug作为整站的模板引擎，所以我没有设置layout这些常见的内容。
+| 我最开始学习Express的时候先学会了jade，后来就喜欢上了这种简化的写法。
+| 再后来脑子突然轴了一下，使用express-generator建立项目时npm提示说jade将不在未来版本中作为默认引擎。我当时不知道怎么想的给读成了jade将不再在未来释出。
+| 然后我看到了pug，使用上我觉得没什么主要区别，于是就已经习惯了。
+| -->
+<!DOCTYPE html>
+html(lang="zh")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        | <!--这里我使用了htmlWebpackplugin.ptions.title获取了我在webpack中给home区块设置的标题-->
+        title= htmlWebpackPlugin.options.title
+        | <!--下面用script标签引入这两个js文件请自行指定，我为了开发便利将他们下载放到了根目录下的cdn文件夹内，你可以根据自己的需求修改具体的文件位置-->
+        | <!--请一定要制定好这两个脚本的位置，否则浏览器将不能正确引入react和react-dom模块-->
+        | <!--这里其实我还是有点糊涂的，我看别人的script都可以放在页尾，但是自己的却只能放在代码之前…我还在找这个具体的原因……-->
+        | <!--需要注意的是，本地放置静态文件且将react/react-dom指定在externals里面后，要在对应位置放置你的这两个脚本。如果是通过npm run来实时调试修改，你要以项目根目录为根，将文件放在相应的位置-->
+        script(src="./cdn/react.production.min.js")
+        script(src="./cdn/react-dom.production.min.js")
+    body
+        #root
+        
