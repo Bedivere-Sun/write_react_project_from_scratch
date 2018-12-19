@@ -158,7 +158,7 @@ React是一个我此前从来没接触过的概念。原先我总天真的以为
     {
         "presets": [
             [
-                "@babel/preset-react"",
+                "@babel/preset-react",
                 {
                     "pragma": "dom",            //默认值其实为React.createElement，替代默认JSX文件编译时使用的函数
                     "pragmaFrag": "DomFrag",    //默认值其实为React.Fragment，替代默认默认JSX问津编译时使用的分段方式
@@ -190,8 +190,8 @@ React是一个我此前从来没接触过的概念。原先我总天真的以为
 - [教程：从零开始使用webpack 4, Babel 7创建一个React项目（2018）](http://www.imweb.io/topic/5be0159bb5bbd42b053d0458 "腾讯imweb的一篇博文")
 
 ## 感谢
-| 昵称/用户名 | 介绍 |
-| :-----: |  |
+| 昵称 | 介绍 |
+| :-----: | :----- |
 | 正在读取中 | 正在读取中是一位很有经验的前辈，在我范各种新手错误的时候没有直接甩给我一句“你js基础不行”，而是告诉我我js哪个基础薄弱，什么知识没有，让我在学习的时候有方向 |
 | lin | 腾讯Next认证课程的老师，指正了我很多不好的代码书写习惯和理解上的问题 |
 | chiehyang | 腾讯Next认证课程的老师，解决了我无数疑问，有问必答，mark之后很快就会一一答疑。很厉害 |
