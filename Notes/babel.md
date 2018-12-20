@@ -47,7 +47,7 @@ babel官方文档在配置babel章节中这样给出选择：
 >>> .babelrc
 >>> index.js
 
-这种请款下，编译`packages/mod/index.js`时babel将忽略`packages/mod/.babelrc`因为它不在根目录下。想要应用这个`.babelrc`文件的配置就要在`babel.config.js`文件中追加"babelrcRoots"的配置信息：
+这种情况下，编译`packages/mod/index.js`时babel将忽略`packages/mod/.babelrc`因为它不在根目录下。想要应用这个`.babelrc`文件的配置就要在`babel.config.js`文件中追加"babelrcRoots"的配置信息：
 ```javascript
 babelrcRoots: [
     ".",
